@@ -1,0 +1,16 @@
+
+
+<suite name="Suite">
+  <test thread-count="5" name="LoginTest">
+    <classes>
+      
+      <class name="driverFactory.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="CustomerTest">
+    <classes>
+      <class name="driverFactory.DriverScript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
